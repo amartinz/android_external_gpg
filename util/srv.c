@@ -23,8 +23,7 @@
 #include <windows.h>
 #else
 #include <netinet/in.h>
-// #include <arpa/nameser.h>
-#include <arpa_nameser_compat.h>
+#include <arpa/nameser.h>
 #include <arpa/inet.h>
 #include <resolv.h>
 #endif
