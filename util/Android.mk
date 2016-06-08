@@ -26,7 +26,6 @@ LOCAL_SRC_FILES:= \
         convert.c \
         estream-printf.c \
         compat.c \
-        srv.c \
         assuan-buffer.c \
         assuan-client.c \
         assuan-defs.h \
@@ -52,7 +51,6 @@ include $(BUILD_STATIC_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES:= \
         compat.c \
-        srv.c
 
 LOCAL_C_INCLUDES := \
         $(ROOT_PATH)/intl \
